@@ -37,7 +37,6 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest
-    
   builddocker:
     runs-on: ubuntu-latest
 
